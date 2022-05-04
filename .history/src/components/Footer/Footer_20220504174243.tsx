@@ -49,7 +49,7 @@ control for much longer.</p>
   </ul>
 </div>
 
-<div className=' flex-1'>
+<div className='mb-5 flex-1'>
   <h2 className="text-[#3E86F5] mb-[40px] uppercase">more</h2>
   <ul>
     {more.map((item,index)=>(

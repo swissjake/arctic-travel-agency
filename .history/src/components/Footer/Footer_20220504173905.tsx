@@ -49,7 +49,7 @@ control for much longer.</p>
   </ul>
 </div>
 
-<div className=' flex-1'>
+<div className='mb-5 flex-1'>
   <h2 className="text-[#3E86F5] mb-[40px] uppercase">more</h2>
   <ul>
     {more.map((item,index)=>(
@@ -61,7 +61,7 @@ control for much longer.</p>
 
               </div>
               
-              <div className="mt-[7.25rem] sm:flex justify-between text-gray-400">
+              <div className="sm:flex justify-between">
 
 <div className="mb-[3rem] w-[50%]">
 © 2022 Arctic Travels - All right reserved.
@@ -75,7 +75,7 @@ Privacy Policy
 Terms of Use
 </div>
 
-<div className='mb-5 invisible flex-1'>
+<div className='mb-5 flex-1'>
   <h2 className="text-[#3E86F5] mb-[40px] uppercase">more</h2>
   <ul>
     {more.map((item,index)=>(
