@@ -2,8 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
-@layout components{
-  .container{
-  @apply max-w-[1440px] mx-auto
-  }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+
+body{
+    font-family: 'poppins';
 }
+
+@layer components {
+    .container {
+        @apply max-w-[1440px] mx-auto
+    }
+    .btn{
+        @apply mt-[68px] bg-[#3E86F5] py-[22px] px-[39px] rounded-[10px] text-[16px] text-white
+    }
+    .booktrip{
+        @apply font-medium text-[18px]
+    }
+    
+}
+
+.bookshadow{
+    box-shadow: 0px 134px 193px rgba(183, 183, 183, 0.07), 0px 16.7789px 24.1666px rgba(183, 183, 183, 0.035);
+}
+/* .container {
+    max-width: 1440px;
+    margin: 0 auto;
+} */
