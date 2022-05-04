@@ -12,15 +12,15 @@ const Resort = () => {
   <div className="flex-1">
   <p className="text-[3rem] md:w-[80%] w-full mb-[4.5rem] font-[600] tracking-[-0.02em]">The best resorts to chill and relax</p>
   <div className="w-full md:flex justify-end flex-wrap">
-  <img src={picture1} className="mb-[32px] mx-auto md:mx-0" alt="" />
-<img src={picture2} className="mb-[32px] mx-auto md:mx-0" alt="" />
+  <img src={picture1} className="mb-[32px] mx-auto" alt="" />
+<img src={picture2} className="mb-[32px] mx-auto" alt="" />
   </div>
 
   </div>
 
 <div className="flex-1">
 <img src={picture3} className="mb-5 mb-[32px] md:mx-0 mx-auto" alt="" />
-<img src={picture4} className="mx-auto md:mx-0" alt="" />
+<img src={picture4} className="mx-auto md:mx-" alt="" />
 </div>
   
   </div>

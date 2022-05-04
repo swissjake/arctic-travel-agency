@@ -16,7 +16,7 @@ const more=["airlines","airfees","lowfare tips"]
 
 const Footer = () => {
   return (
-      <footer className='pt-[5rem]'>
+      <footer className='h-[]'>
          <div className="container p-[20px] md:pl-[61px] md:pr-[57px]">
             <div className="sm:flex justify-between">
 
@@ -49,7 +49,7 @@ control for much longer.</p>
   </ul>
 </div>
 
-<div className=' flex-1'>
+<div className='mb-5 flex-1'>
   <h2 className="text-[#3E86F5] mb-[40px] uppercase">more</h2>
   <ul>
     {more.map((item,index)=>(
@@ -60,34 +60,6 @@ control for much longer.</p>
       
 
               </div>
-              
-              <div className="mt-[7.25rem] sm:flex justify-between text-gray-400">
-
-<div className="mb-[3rem] w-[50%]">
-© 2022 Arctic Travels - All right reserved.
-</div>
-
-<div className='mb-5 flex-1'>
-Privacy Policy
-</div>
-
-<div className='mb-5 flex-1'>
-Terms of Use
-</div>
-
-<div className='mb-5 invisible flex-1'>
-  <h2 className="text-[#3E86F5] mb-[40px] uppercase">more</h2>
-  <ul>
-    {more.map((item,index)=>(
-      <li className="capitalize leading-10">{item}</li>
-    ))}
-  </ul>
-</div>
-      
-
-              </div>
-              
-
          </div>
       </footer>
    
